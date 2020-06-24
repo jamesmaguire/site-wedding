@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+  font-family: Lora;
+  font-size: 12pt;
+}
+
+#content {
+  margin-top: 10%;
+}
+
+.title, .header-date, .header-location {
+  text-align: center;
+}
+
+.header-links ul {
+  
+}
