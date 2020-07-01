@@ -1,6 +1,7 @@
 #+TITLE: Alex & James
 #+DATE: 13 Decmeber 2020
 #+MACRO: location Wollongong
+
 #+OPTIONS: toc:nil creator:nil timestamp:nil html-postamble:nil num:nil
 
 # CSS
@@ -13,13 +14,11 @@
 
 # Body
 
+are getting married!
+
 #+begin_header-date
 {{{date}}}
 #+end_header-date
-
-#+begin_header-location
-{{{location}}}
-#+end_header-location
 
 #+begin_header-links
 - [[file:./index.org][Home]]

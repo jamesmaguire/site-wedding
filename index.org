@@ -1,0 +1,12 @@
+
+#+INCLUDE: ./header.org
+
+*Alex and James*
+
+would be delighted if you could join them on their wedding day on
+
+/{{{date}}}/
+
+at
+
+/{{{location}}}/
