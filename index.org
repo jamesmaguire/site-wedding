@@ -1,9 +1,7 @@
 
 #+INCLUDE: ./header.org
 
-*Alex and James*
-
-would be delighted if you could join them on their wedding day on
+We would be delighted for you to join us on our wedding day on
 
 /{{{date}}}/
 

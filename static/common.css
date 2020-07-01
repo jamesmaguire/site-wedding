@@ -1,84 +1,112 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 :root {
-  --font-default: Lora, serif;
-  --colour-highlight: teal;
-  --colour-light-highlight: #43BABA;
-  --colour-highlight-2: orange;
-  --dark-fg: gray;
-  --light-fg: white;
+    --font-cursive: "Dancing Script", serif;
+    --font-serif: Lora, serif;
+    --colour-highlight1: #6E94BF;
+    --colour-highlight2: #B5DFCE;
+    --dark-fg: black;
+    --light-fg: white;
 }
 
 html {
-  height: 100%;
-  background: linear-gradient(to bottom right, #43BABA,lightgray,white);
-  font-family: var(--font-default);
-  font-size: 12pt;
+    height: 100%;
+    background: lightgrey;
+    font-family: var(--font-serif);
+    font-size: 14pt;
 }
 
 body {
-  background: white;
-  border-radius: 3px;
-  box-shadow: 11px 11px 20px -5px rgba(0,0,0,0.4);
-  
-  height: 700px;
-  max-width: 80%;
-  width: 500px;
-  
-  margin: auto;
-  margin-top: 5%;
-  
-  padding: 10px;
-  padding-bottom: 40px;
+    background: #F8F8F7;
+    background-image: url("flowers.svg");
+    background-position: left -150px top 0px;
+    border-radius: 3px;
+    box-shadow: 11px 11px 20px -5px rgba(0,0,0,0.4);
+    
+    height: 630px;
+    max-width: 80%;
+    width: 500px;
+    
+    margin: auto;
+    margin-top: 5%;
+    
+    padding: 10px;
+    padding-bottom: 40px;
 }
 
 #content {
-  height: 100%;
-  color: var(--dark-fg);
-  border: 5px solid;
-  border-color: var(--colour-light-highlight);
-  border-radius: 2px;
-  padding: 10px;
+    height: 100%;
+    color: var(--dark-fg);
+    border: 5px solid;
+    border-color: var(--colour-highlight2);
+    border-radius: 2px;
+    padding: 10px;
 }
 
-.title, .header-date, .header-location {
-  text-align: center;
+.title {
+    font-family: var(--font-cursive);
+    font-size: 54pt;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
 }
-.header-date p {
-  margin-top: 10px;
-  margin-bottom: 5px;
+
+.subtitle p {
+    font-family: var(--font-cursive);
+    font-size: 20pt;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.header-links {
+    font-size: 12pt;
+    background-color: var(--colour-highlight1);
+    border-radius: 2px;
+    height: 55px;
+    margin: 50px 15px;
+    margin-bottom: 70px;
+    text-align: center;
 }
 
 .header-links ul {
-  padding: 10px 0px;
-  margin: 30px auto;
-  width: 100%;
-  background: var(--colour-highlight);
+    display: inline-block;
+    padding: 0;
 }
+
 .header-links li {
-  display: inline;
-  padding: 10px;
-  margin-left: 0px;
-  margin-right: 0px;
+    display: inline-block;
+    padding: 0 4px;
 }
 
 .header-links a {
-  color: var(--light-fg);
-  text-decoration: none;
+    color: var(--light-fg);
+    text-decoration: none;
 }
 .header-links a:hover {
-  color: var(--colour-highlight-2);
+    color: var(--colour-highlight2);
 }
 
 p {
-  text-align: center;
-  margin: 20px 15%;
+    text-align: center;
+    margin: 20px 15%;
 }
 b {
-  font-size: 130%;
+    font-size: 130%;
 }
 i {
-  font-size: 120%;
-  color: var(--colour-highlight);
+    font-size: 120%;
+    color: var(--colour-highlight);
+}
+iframe {
+    width: 400;
+    height: 400;
+    display: block;
+    margin: auto;
+    border: 3px solid;
+    border-color: var(--colour-highlight2);
+    border-radius: 5px 50px;
 }

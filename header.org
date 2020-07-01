@@ -14,11 +14,9 @@
 
 # Body
 
+#+begin_subtitle
 are getting married!
-
-#+begin_header-date
-{{{date}}}
-#+end_header-date
+#+end_subtitle
 
 #+begin_header-links
 - [[file:./index.org][Home]]
