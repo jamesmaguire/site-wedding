@@ -7,42 +7,59 @@
     --font-serif: Lora, serif;
     --colour-highlight1: #6E94BF;
     --colour-highlight2: #B5DFCE;
-    --dark-fg: black;
+    --dark-fg: #000000aa;
     --light-fg: white;
 }
 
 html {
     height: 100%;
-    background: lightgrey;
+    /* background: lightgrey; */
+    background: url("./bg.png");
     font-family: var(--font-serif);
     font-size: 14pt;
 }
 
-body {
-    background: #F8F8F7;
-    background-image: url("flowers.svg");
-    background-position: left -150px top 0px;
-    border-radius: 3px;
-    box-shadow: 11px 11px 20px -5px rgba(0,0,0,0.4);
-    
-    height: 630px;
-    max-width: 80%;
-    width: 500px;
-    
-    margin: auto;
-    margin-top: 5%;
-    
-    padding: 10px;
-    padding-bottom: 40px;
+.eucalypt1 {
+    background: url(./eucalypt1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 35rem;
+    width: 25rem;
+    position: absolute;
+    bottom: 0%;
+    left: 65%;
+    z-index: 1;
+    /* border: red 1px solid; */
+}
+.eucalypt2 {
+    background: url(./eucalypt2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40rem;
+    width: 25rem;
+    position: absolute;
+    top: -5%;
+    right: 60%;
+    z-index: 1;
+    /* border: orange 1px solid; */
+}
+.envelope {
+    position: absolute;
+    left: calc(50% - 370px);
+    top: 10%;
+    z-index: -2;
 }
 
 #content {
-    height: 100%;
+    margin: auto;
+    margin-top: 3rem;
     color: var(--dark-fg);
-    border: 5px solid;
-    border-color: var(--colour-highlight2);
-    border-radius: 2px;
-    padding: 10px;
+    background: url(./card.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 36rem;
+    width: 26rem;
+    padding: 1rem;
 }
 
 .title {
@@ -51,7 +68,7 @@ body {
     text-align: center;
     padding: 0;
     margin: 0;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 .subtitle p {
@@ -65,10 +82,10 @@ body {
 .header-links {
     font-size: 12pt;
     background-color: var(--colour-highlight1);
-    border-radius: 2px;
-    height: 55px;
-    margin: 50px 15px;
-    margin-bottom: 70px;
+    border-radius: 0.2rem;
+    height: 3rem;
+    margin: 2rem 1rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
@@ -79,7 +96,7 @@ body {
 
 .header-links li {
     display: inline-block;
-    padding: 0 4px;
+    padding: 0 0.3rem;
 }
 
 .header-links a {
@@ -92,7 +109,7 @@ body {
 
 p {
     text-align: center;
-    margin: 20px 15%;
+    margin: 1.5rem 15%;
 }
 b {
     font-size: 130%;
@@ -106,7 +123,7 @@ iframe {
     height: 400;
     display: block;
     margin: auto;
-    border: 3px solid;
+    border: 0.2rem solid;
     border-color: var(--colour-highlight2);
-    border-radius: 5px 50px;
+    border-radius: 0.5rem 2rem;
 }

@@ -12,6 +12,17 @@
 # Using A+J, bg:cirlce, font:Leckerli One, size:60, fg:#AFD, bg:4BB
 #+HTML_HEAD: <link rel="icon" type="image/png" href="./static/favicon.png" />
 
+# Background
+#+begin_eucalypt1
+# [[file:./static/eucalypt1.png]]
+#+end_eucalypt1
+#+begin_eucalypt2
+# [[file:./static/eucalypt2.png]]
+#+end_eucalypt2
+#+begin_envelope
+[[file:./static/envelope.png]]
+#+end_envelope
+
 # Body
 
 #+begin_subtitle
