@@ -1,24 +1,25 @@
-#+title: Alex & James
-#+subtitle: are getting married!
+#+title: Wedding website
 #+setupfile: index.setup
 
-We would be delighted for you to join us on our wedding day on
+@@html:<div id='top'></div>@@
+[[file:./static/branches-banner.svg]]
 
-10 September
+* Alex & James
 
-at
+** September 10, 2022
+
+Welcome blurb
+
+** Our story
+** Location
+[[file:./static/secret-creek.jpg]]
 
 [[https://goo.gl/maps/DM5VzDv9fmP75gJ97][Secret Creek Sanctuary]]
 
 35 Crane Road, Lithgow
-
-- Our story
-- Schedule
-- Gifts
-- RSVP
-
-
-
+** Schedule
+** Gifts
+** RSVP
 * Export on save                                                   :noexport:
 ;; Local Variables:
 ;; eval: (add-hook 'after-save-hook 'org-html-export-to-html nil t)
