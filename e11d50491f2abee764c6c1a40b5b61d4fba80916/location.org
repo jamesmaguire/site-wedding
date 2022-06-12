@@ -1,5 +1,0 @@
-#+INCLUDE: ./header.org
-
-#+begin_export html
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d691.9307224039387!2d150.88424480152847!3d-34.416701326476506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13190b7d9632bf%3A0x90bc412cd0876931!2s3%20Foley%20St%2C%20Gwynneville%20NSW%202500!5e0!3m2!1sen!2sau!4v1593564699560!5m2!1sen!2sau" width=90% height="300" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-#+end_export

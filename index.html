@@ -1,118 +1,100 @@
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <title></title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Alex &amp; James</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="james" />
+<link rel="stylesheet" type="text/css" href="static/wedding.css" />
+<script type="text/javascript" src="static/wedding.js"></script>
+<link rel="icon" type="image/ico" href="static/favicon.svg" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
 
-  <style>
+Copyright (C) 2012-2020 Free Software Foundation, Inc.
 
-    body {
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
 
-        background-image: url('grunge_patterns.jpg');
-        background-attachment: fixed;
-        color: #333;
-    }
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
 
-    .box {
-        border-radius: 3px;
-        background: rgba(101, 101, 101, 0.7); margin: auto; padding: 12px;
-    }
 
-    .lightbox {
-        zoom: 1.5;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(10, 10, 10, 0.8);
-        text-align: center;
-        margin: auto;
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="index.html"> UP </a>
+ |
+ <a accesskey="H" href="index.html"> HOME </a>
+</div><div id="content">
+<h1 class="title">Alex &amp; James
+<br />
+<span class="subtitle">are getting married!</span>
+</h1>
+<p>
+We would be delighted for you to join us on our wedding day on
+</p>
 
-    }
+<p>
+10 September
+</p>
 
-    div.horizontal {
-        display: flex;
-        justify-content: center;
-        height: 100%;
-    }
+<p>
+at
+</p>
 
-    div.vertical {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        width: 100%;
-    }
+<p>
+<a href="https://goo.gl/maps/DM5VzDv9fmP75gJ97">Secret Creek Sanctuary</a>
+</p>
 
-    ::-webkit-input-placeholder {
-        color: #955;
-        text-align: center;
-    }
+<p>
+35 Crane Road, Lithgow
+</p>
 
-    ::-moz-placeholder {
-        color: #955;
-        text-align: center;
-    }
-
-    :-ms-input-placeholder {
-        color: #955;
-        text-align: center;
-    }
-
-  </style>
-
-  <body>
-    <div id="loginbox" class="lightbox" >
-      <div class="horizontal">
-        <div class="vertical">
-          <div class="box">
-            <input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
-            <button id="loginbutton" type="button">Enter</button>
-            <p id="wrongPassword" style="display: none">wrong password</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-    <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
-    <script type="text/javascript">
-      "use strict";
-
-      function loadPage(pwd) {
-
-          var hash= pwd;
-          hash= Sha1.hash(pwd);
-          var url= hash + "/index.html";
-
-          $.ajax({
-              url : url,
-              dataType : "html",
-              success : function(data) {
-                  window.location= url;
-              },
-              error : function(xhr, ajaxOptions, thrownError) {
-                  parent.location.hash= hash;
-                  //$("#wrongPassword").show();
-                  $("#password").attr("placeholder","wrong password");
-                  $("#password").val("");
-              }
-          });
-      }
-
-      $("#loginbutton").on("click", function() {
-          loadPage($("#password").val());
-      });
-      $("#password").keypress(function(e) {
-          if (e.which == 13) {
-
-              loadPage($("#password").val());
-          }
-      });
-      $("#password").focus();
-
-    </script>
-
-  </body>
+<ul class="org-ul">
+<li>Our story</li>
+<li>Schedule</li>
+<li>Gifts</li>
+<li>RSVP</li>
+</ul>
+</div>
+</body>
 </html>

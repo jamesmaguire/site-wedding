@@ -1,0 +1,25 @@
+#+title: Alex & James
+#+subtitle: are getting married!
+#+setupfile: index.setup
+
+We would be delighted for you to join us on our wedding day on
+
+10 September
+
+at
+
+[[https://goo.gl/maps/DM5VzDv9fmP75gJ97][Secret Creek Sanctuary]]
+
+35 Crane Road, Lithgow
+
+- Our story
+- Schedule
+- Gifts
+- RSVP
+
+
+
+* Export on save                                                   :noexport:
+;; Local Variables:
+;; eval: (add-hook 'after-save-hook 'org-html-export-to-html nil t)
+;; End:
